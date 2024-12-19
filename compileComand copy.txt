@@ -1,0 +1,9 @@
+
+// the exe and the libwinpthread.dll file must be on the same folder for the program to run
+
+
+//compile the program with this command
+
+g++ ./*cpp -o ../buildDest/swpRender.exe -O1 -Wall -std=c++17 -Wno-missing-braces -static-libgcc -static-libstdc++ -I ../include/ -L ../lib/ -lraylib -lopengl32 -lgdi32 -lwinmm
+
+// the result will be in the buildDest folder
